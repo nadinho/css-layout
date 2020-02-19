@@ -10,3 +10,15 @@ body {
     color: rebeccapurple;
     font-size: 16px;
 }
+
+.bottom-nav {
+    background: lightblue;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+button {
+    background: teal;
+}
