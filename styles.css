@@ -11,16 +11,6 @@ body {
   font-size: 16px;
 }
 
-a {
-  text-decoration: none;
-  border-bottom: 1px solid red;
-  transition: width 1s;
-  transition-delay: 1;
-}
-
-a:hover {
-  width: 300px;
-}
 
 .bottom-nav {
   background: lightblue;
@@ -32,7 +22,7 @@ a:hover {
   justify-content: center;
 }
 
-.bottom-nav-button {
+.bottom-nav__button {
   width: 90px;
   height: 50px;
   margin: 10px;
@@ -45,12 +35,12 @@ a:hover {
   transition: font-size 1s, background-color 1s;
 }
 
-.bottom-nav-button:hover {
+.bottom-nav__button:hover {
   background-color: rgba(77, 105, 197, 0.75);
   font-size: 2rem;
 }
 
-.bottom-nav-button-active {
+.bottom-nav__button--active {
   background-color: rgba(167, 23, 109, 0.5);
   font-size: 2rem;
   border: none;
