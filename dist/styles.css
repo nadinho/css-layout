@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: floralwhite;
+  color: lightblue;
+  margin: 0;
+  font-size: 16px;
+}
+
+.bottom-nav {
+  background-color: lightblue;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-nav__button {
+  width: 90px;
+  height: 50px;
+  margin: 10px;
+  background-color: lightblue;
+  font-size: 1.2rem;
+  border: 5px dotted;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  transition: font-size 1s, background-color 1s;
+}
+
+.bottom-nav__button:hover {
+  background-color: rgba(77, 105, 197, 0.75);
+  font-size: 2rem;
+}
+
+.bottom-nav__button--active {
+  background-color: rgba(167, 23, 109, 0.5);
+  font-size: 2rem;
+  border: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
