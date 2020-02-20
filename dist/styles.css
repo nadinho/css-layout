@@ -1,19 +1,18 @@
 *,
 *::after,
-**::before {
+*::before {
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
   background-color: floralwhite;
-  color: rebeccapurple;
+  color: lightblue;
+  margin: 0;
   font-size: 16px;
 }
 
-
 .bottom-nav {
-  background: lightblue;
+  background-color: lightblue;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -45,3 +44,5 @@ body {
   font-size: 2rem;
   border: none;
 }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+$primary-color: floralwhite;
+$secondary-color: lightblue;
+$accent-color: rgba(167, 23, 109, 0.5);
+$hover-color: rgba(77, 105, 197, 0.75);
+
+$text-size: 16px;
+
+body {
+  background-color: $primary-color;
+  color: $secondary-color;
+  margin: 0;
+  font-size: $text-size;
+}
+
+.bottom-nav {
+  background-color: $secondary-color;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-nav__button {
+  width: 90px;
+  height: 50px;
+  margin: 10px;
+  background-color: $secondary-color;
+  font-size: 1.2rem;
+  border: 5px dotted;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  transition: font-size 1s, background-color 1s;
+}
+
+.bottom-nav__button:hover {
+  background-color: $hover-color;
+  font-size: 2rem;
+}
+
+.bottom-nav__button--active {
+  background-color: $accent-color;
+  font-size: 2rem;
+  border: none;
+}
