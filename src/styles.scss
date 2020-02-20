@@ -4,12 +4,7 @@
   box-sizing: border-box;
 }
 
-$primary-color: floralwhite;
-$secondary-color: lightblue;
-$accent-color: rgba(167, 23, 109, 0.5);
-$hover-color: rgba(77, 105, 197, 0.75);
-
-$text-size: 16px;
+@import "colors";
 
 body {
   background-color: $primary-color;
