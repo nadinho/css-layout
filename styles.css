@@ -11,6 +11,17 @@ body {
   font-size: 16px;
 }
 
+a {
+  text-decoration: none;
+  border-bottom: 1px solid red;
+  transition: width 1s;
+  transition-delay: 1;
+}
+
+a:hover {
+  width: 300px;
+}
+
 .bottom-nav {
   background: lightblue;
   position: fixed;
@@ -27,7 +38,7 @@ body {
   margin: 10px;
   background-color: lightblue;
   font-size: 1.2rem;
-  border: 5px dotted ;
+  border: 5px dotted;
   border-radius: 10px;
   outline: none;
   cursor: pointer;
